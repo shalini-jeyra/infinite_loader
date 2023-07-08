@@ -9,7 +9,3 @@ class FetchListEvent extends ListEvent {
 
 
 
-class FetchUserEvent extends ListEvent {
-  final int userId;
-  FetchUserEvent({required this.userId});
-}
